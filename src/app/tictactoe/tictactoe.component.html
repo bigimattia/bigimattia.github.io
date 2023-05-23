@@ -8,7 +8,8 @@
       {{ cell }}
     </div>
   </div>
-  <div *ngIf="winner !== null" class="winner-message">
-    {{ winner === "" ? "Tie game!" : "Winner: " + winner }}
-  </div>
+</div>
+
+<div *ngIf="winner !== null" class="winner-message">
+  {{ winner === "" ? "Tie game!" : "Winner: " + winner }}
 </div>
