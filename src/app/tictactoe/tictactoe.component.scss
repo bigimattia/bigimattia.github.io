@@ -1,0 +1,36 @@
+.tic-tac-toe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  min-width: 150px;
+  min-height: 150px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border: 2px solid black;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.cell:hover {
+  background-color: #eee;
+}
+
+.winner-message {
+  margin-top: 10px;
+  font-size: 2rem;
+}

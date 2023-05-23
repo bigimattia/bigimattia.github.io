@@ -1,0 +1,7 @@
+{
+  "name": "bigimattia.github.io",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
