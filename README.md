@@ -23,3 +23,16 @@ Then deploy to branch "gh-pages" the "www" folder created using "angular-cli-ghp
 > npx angular-cli-ghpages --dir=www
 
 Remeber to change the deploy branch in the repository settings to gh-pages
+
+## auto-generate documentation
+(powered by: [compodoc](https://compodoc.app/) )
+
+Simply run:
+> npm run doc:build
+
+Files will be generated at: <code> /documentation </code> .
+
+You can edit the file <code> tsconfig.doc.json </code> to configure included/excluded files
+
+In order to serve it run:
+> npm run doc:serve

@@ -10,7 +10,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "build-gh-pages": "ionic build --prod -- --base-href https://bigimattia.github.io/ && npx angular-cli-ghpages --dir=www"
+    "build-gh-pages": "ionic build --prod -- --base-href https://bigimattia.github.io/ && npx angular-cli-ghpages --dir=www",
+    "doc:build": "npx compodoc -p tsconfig.doc.json --theme material",
+    "doc:serve": "compodoc -s"
   },
   "private": true,
   "dependencies": {
@@ -48,6 +50,7 @@
     "@angular/compiler-cli": "^16.0.0",
     "@angular/language-service": "^16.0.0",
     "@capacitor/cli": "5.0.1",
+    "@compodoc/compodoc": "^1.1.21",
     "@ionic/angular-toolkit": "^9.0.0",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^12.11.1",
