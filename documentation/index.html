@@ -65,11 +65,17 @@
 </blockquote>
 <p>Remeber to change the deploy branch in the repository settings to gh-pages</p>
 <h2>auto-generate documentation</h2>
+<p>(powered by: <a href="https://compodoc.app/">compodoc</a> )</p>
 <p>Simply run:</p>
 <blockquote>
-<p>npm run compodoc</p>
+<p>npm run doc:build</p>
 </blockquote>
-<p>Files will be generated at <code> /documentation </code></p>
+<p>Files will be generated at: <code> /documentation </code> .</p>
+<p>You can edit the file <code> tsconfig.doc.json </code> to configure included/excluded files</p>
+<p>In order to serve it run:</p>
+<blockquote>
+<p>npm run doc:serve</p>
+</blockquote>
 
 
 
